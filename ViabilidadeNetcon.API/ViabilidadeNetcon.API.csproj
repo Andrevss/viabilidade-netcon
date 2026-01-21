@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.23" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ViabilidadeNetcon.Application\ViabilidadeNetcon.Application.csproj" />
+    <ProjectReference Include="..\ViabilidadeNetcon.Infrastructure\ViabilidadeNetcon.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	 <None Update="Data\dataset.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	 </None>
+  </ItemGroup>
+
+</Project>

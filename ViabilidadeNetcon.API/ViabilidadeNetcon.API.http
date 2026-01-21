@@ -1,0 +1,6 @@
+@ViabilidadeNetcon.API_HostAddress = http://localhost:5098
+
+GET {{ViabilidadeNetcon.API_HostAddress}}/swagger/
+Accept: application/json
+
+###

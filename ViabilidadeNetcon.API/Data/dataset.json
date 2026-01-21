@@ -1,0 +1,50 @@
+﻿[
+  {
+    "id": 1,
+    "nome": "CTO-SP-0001",
+    "latitude": -23.556456,
+    "longitude": -46.635653
+  },
+  {
+    "id": 2,
+    "nome": "CTO-SP-0002",
+    "latitude": -23.556500,
+    "longitude": -46.635700
+  },
+  {
+    "id": 3,
+    "nome": "CTO-SP-0003",
+    "latitude": -23.560000,
+    "longitude": -46.640000
+  },
+  {
+    "id": 4,
+    "nome": "CTO-SP-0004",
+    "latitude": -23.570000,
+    "longitude": -46.650000
+  },
+  {
+    "id": 5,
+    "nome": "CTO-RJ-0001",
+    "latitude": -22.906847,
+    "longitude": -43.172896
+  },
+  {
+    "id": 6,
+    "nome": "CTO-RJ-0002",
+    "latitude": -22.910000,
+    "longitude": -43.175000
+  },
+  {
+    "id": 7,
+    "nome": "CTO-MG-0001",
+    "latitude": -19.916681,
+    "longitude": -43.934493
+  },
+  {
+    "id": 8,
+    "nome": "CTO-MG-0002",
+    "latitude": -19.920000,
+    "longitude": -43.940000
+  }
+]
